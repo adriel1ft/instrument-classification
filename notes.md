@@ -32,3 +32,25 @@ sr > 2 × f_max
 Analogamente à equalização de histograma em PDI, que normaliza a distribuição de intensidades de uma imagem para remover variações de iluminação, a normalização de amplitude remove variações de dinâmica entre gravações, permitindo que o classificador foque nas características espectrais do timbre.
 
 exemplos de variação: volume/intensidade ao longo do tempo.
+
+
+# Passo 2 (Extração de Features)
+
+- Centroide espectral = a frequência média ponderada pela magnitude.
+centroide = Σ(frequência × magnitude) / Σ(magnitude)
+
+O que ele captura fisicamente:
+
+Som com muita energia nos agudos → centroide alto
+Som com muita energia nos graves → centroide baixo
+
+clarinete → harmônicos ímpares dominantes → centroide característico
+violino   → rico em harmônicos altos      → centroide mais alto
+piano     → amplo espectro                → centroide intermediário
+
+- Spectral Flux = Quanto o espectro muda de um frame para o outro.
+Num cenário de visão computacional, seria como detecção de movimento entre frames 
+
+# Passo 3 (Montar o dataset)
+
+# Passo 4 (Treino e Validação)
