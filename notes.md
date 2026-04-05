@@ -48,8 +48,43 @@ clarinete → harmônicos ímpares dominantes → centroide característico
 violino   → rico em harmônicos altos      → centroide mais alto
 piano     → amplo espectro                → centroide intermediário
 
+
+- Spectral Bandwidth (Largura de Banda Espectral)
+É a largura do espectro em torno do centroide — o quanto as frequências se dispersam em relação ao centro de massa.
+
+O que ele captura fisicamente:
+
+Espectro concentrado em poucas frequências → bandwidth baixo
+Espectro espalhado por muitas frequências → bandwidth alto
+
+- Spectral_contrast (Contraste Espectral)
+É a diferença de intensidade entre os picos e os vales do espectro
+
+pico
+/\  /\/\
+  \/
+ vale
+
 - Spectral Flux = Quanto o espectro muda de um frame para o outro.
-Num cenário de visão computacional, seria como detecção de movimento entre frames 
+Num cenário de visão computacional, seria como se fosse detecção de movimento entre frames 
+
+O que ele captura fisicamente:
+
+Onset de nota (quando o instrumento começa a tocar) → flux alto
+Sinal estacionário (nota sustentada) → flux baixo
+
+piano     → ataque percussivo forte → flux alto no onset, cai rápido
+violino   → ataque gradual (arco)   → flux cresce devagar
+clarinete → ataque de sopro         → flux intermediário
+
+- Zero Crossing
+Quantas vezes o sinal cruza y = 0
+
+PLUS
+- O que é escala mel?
+É uma escala de frequência que imita a percepção auditiva humana.
+
+
 
 # Passo 3 (Montar o dataset)
 
