@@ -1,4 +1,4 @@
-# Classificação de Instrumentos Musicais (Piano vs Violino vs Trumpet)
+# Classificação de Instrumentos Musicais (Piano vs Violino vs Clarinete)
 
 Projeto da disciplina de **Processamento Digital de Imagens (PDI)**, ministrada pelo professor **Leoanrdo**, desenvolvido pelos alunos **Adriel** e **Kamily**.
 
@@ -8,7 +8,7 @@ Este trabalho propõe um sistema de classificação para três classes instrumen
 
 - Piano
 - Violino
-- Trumpet
+- Clarinete
 
 Embora o problema seja de áudio, a estratégia segue a lógica de PDI ao converter sinais unidimensionais em representações tempo-frequência tratadas como imagens (espectrogramas), permitindo o uso de técnicas clássicas de processamento e aprendizado supervisionado.
 

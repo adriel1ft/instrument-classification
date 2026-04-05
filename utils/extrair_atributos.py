@@ -7,7 +7,7 @@ hs = 512    # hop_length
 mfcc_dim = 13
 ms = 128    # n_mels
 
-def extract_feature(samples):
+def extrair_atributos(samples):
     result = []
     features = []
 
